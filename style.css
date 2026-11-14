@@ -1,0 +1,390 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar top */
+.navbar-top {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav {
+    background: black;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ef4b3f;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.logo a:hover {
+    color: #fff;
+}
+
+.social-link i img {
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.social-link i img:hover {
+    background-color: rgba(238, 224, 208);
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 420px) {
+    .social-link i img {
+        width: 20px;
+    }
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo h3 {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 250px) {
+    .logo h3 {
+        font-size: 10px;
+    }
+}
+
+.icons i img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+    .icons i img {
+        width: 20px;
+    }
+}
+
+/* Main content */
+.main-content {
+    width: 100%;
+    height: 90vh;
+    background-image: url("website/img/background1.jpg");
+    background-size: cover;
+    background-position: 70%;
+}
+
+/* Marquee styles */
+.marquee {
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+}
+
+.marquee marquee {
+    font-weight: normal;
+    color: black;
+}
+
+/* Navbar */
+#navbar-color {
+    background-color: lightgrey;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+    border-radius: 1px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: darkgray;
+}
+
+/* Content */
+.content {
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.shop-now-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: black;
+    background-color: lightgrey;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now-button:hover {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 420px) {
+    .content h1 {
+        font-size: 30px;
+    }
+}
+
+/* Card 1 */
+#tpc {
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#tpc:hover {
+    transform: translateY(-10px);
+}
+
+.view-more-btn {
+    background-color: rgb(255, 30, 0);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.view-more-btn:hover {
+    background: transparent;
+}
+
+@media (max-width: 600px) {
+    .view-more-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+/* Card 2 */
+.card {
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    transition: background-color 0.3s;
+}
+
+.card:hover {
+    background-color: #e0e0e0;
+}
+
+/* Card 3 */
+#c p {
+    font-weight: bold;
+}
+
+#btn3 button {
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn3 button:hover {
+    background-color: rgba(238, 224, 208);
+}
+
+@media screen and (max-width: 895px) {
+    #btn3 button {
+        width: 100px;
+    }
+}
+
+#btn4 button {
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn4 button:hover {
+    background-color: rgba(238, 224, 208);
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+#footer h1 {
+    color: white;
+    padding-top: 30px;
+}
+
+#footer p {
+    color: white;
+}
+
+.icons i {
+    color: rgba(238, 224, 208);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.copyright {
+    color: white;
+    margin-top: 20px;
+}
+
+.credite {
+    color: white;
+}
+
+/* General styling for icons */
+.social-links a {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s ease;
+}
+
+/* Hover effect for icons */
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsiveness for icons */
+@media screen and (max-width: 768px) {
+    .social-links {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .social-links a {
+        margin: 0 10px;
+    }
+
+    .social-links img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .social-links a {
+        margin: 0 8px;
+    }
+
+    .social-links img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centering the elements horizontally */
+    background-color:transparent; /* Light background color for the search bar */
+    padding: 5px;
+    border-radius: 5px; /* Rounded corners for the search bar */
+    width: 250px; /* Ensures it occupies the full width */
+    max-width: 600px; /* Optional: restricts the width on large screens */
+    margin: 0 auto; /* Centers the search bar */
+}
+
+.search-bar .form-control {
+    width: 250px; /* Makes the input field occupy 80% of the width */
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+.search-bar .form-control:focus {
+    border-color: #007bff; /* Blue border when input is focused */
+    outline: none; /* Removes default focus outline */
+}
+
+.search-bar .btn {
+    background-color: #007bff; /* Blue button background */
+    color: white;
+    padding: 8px 15px;
+    font-size: 12px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .search-bar {
+        flex-direction: column; /* Stack the input and button vertically */
+        align-items: flex-start; /* Align the items to the left */
+    }
+
+    .search-bar .form-control {
+        width: 100%; /* Input takes full width */
+        margin-bottom: 10px; /* Adds some space between the input and button */
+    }
+
+    .search-bar .btn {
+        width: 100%; /* Button takes full width on small screens */
+    }
+}
